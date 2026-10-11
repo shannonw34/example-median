@@ -28,7 +28,7 @@ def median(data):
     n = len(ordered)
     mid = n // 2
     if n % 2 == 0:
-        return (ordered[mid - 1] + ordered[mid]) / 2
+        return (ordered[mid - 1] + ordered[mid]) / 2.0
     return ordered[mid]
 
 
